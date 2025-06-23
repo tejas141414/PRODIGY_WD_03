@@ -14,9 +14,9 @@ let computerWins = 0;
 let draws = 0;
 
 // Load sounds (make sure these files exist in sounds folder)
-const clickSound = new Audio('sounds/click.mp3');
-const winSound = new Audio('sounds/win.mp3');
-const drawSound = new Audio('sounds/draw.mp3');
+const clickSound = new Audio("C:\Users\Chintamani Ent\Downloads\game-start-317318.mp3");
+const winSound = new Audio("C:\Users\Chintamani Ent\Downloads\success-1-6297.mp3");
+const drawSound = new Audio("C:\Users\Chintamani Ent\Downloads\video-game-bonus-323603.mp3");
 
 function createBoard() {
   board.innerHTML = '';
