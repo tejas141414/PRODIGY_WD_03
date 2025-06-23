@@ -12,7 +12,7 @@ An interactive and responsive Tic-Tac-Toe game built using **HTML**, **CSS**, an
 
 ## 🖼️ Preview
 
-  "C:\Users\Chintamani Ent\OneDrive\Desktop\Screenshot 2025-06-23 125237.png"
+ <img width="929" alt="Screenshot 2025-06-23 125237" src="https://github.com/user-attachments/assets/7401128e-56e8-4266-aa5c-be159185b555" />
 
 ---
 
