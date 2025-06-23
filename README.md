@@ -12,9 +12,7 @@ An interactive and responsive Tic-Tac-Toe game built using **HTML**, **CSS**, an
 
 ## 🖼️ Preview
 
-![Tic-Tac-Toe Screenshot](<img width="1018" alt="image" src="https://github.com/user-attachments/assets/384dc9ed-ddf4-466f-886d-a6411236caca" />
-)  
-*(Replace with an actual screenshot if available)*
+  "C:\Users\Chintamani Ent\OneDrive\Desktop\Screenshot 2025-06-23 125237.png"
 
 ---
 
