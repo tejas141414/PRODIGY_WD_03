@@ -1,0 +1,89 @@
+/* Basic resets and styling */
+body {
+  background-color: white;
+  color: black;
+  font-family: Arial, sans-serif;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#board {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-template-rows: repeat(3, 100px);
+  gap: 8px;
+  justify-content: center;
+  margin: auto;
+  border: 3px solid black;
+  padding: 8px;
+  border-radius: 10px;
+  background-color: #f0f0f0;
+}
+
+.cell {
+  background-color: white;
+  border: 2px solid black;
+  font-size: 64px;
+  font-weight: bold;
+  color: #222;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  user-select: none;
+  border-radius: 8px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.cell:hover {
+  background-color: #ddd;
+}
+
+.cell.taken {
+  cursor: default;
+  background-color: #ccc;
+}
+
+button {
+  padding: 10px 15px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1px solid #555;
+  background-color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #eee;
+}
+
+/* Dark Mode Styles */
+body.dark-mode {
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
+body.dark-mode #board {
+  background-color: #333;
+  border-color: #555;
+}
+
+body.dark-mode .cell {
+  background-color: #555;
+  border-color: #777;
+  color: #eee;
+}
+
+body.dark-mode .cell:hover {
+  background-color: #666;
+}
+
+body.dark-mode button {
+  background-color: #222;
+  border-color: #888;
+  color: #eee;
+}
+
+body.dark-mode button:hover {
+  background-color: #444;
+}

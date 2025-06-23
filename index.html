@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tic-Tac-Toe with AI, Sound, Scoreboard & Dark Mode</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div style="max-width: 400px; margin: auto; padding: 20px; text-align: center;">
+
+    <button id="themeToggleBtn" style="margin-bottom: 20px;">Switch to Dark Mode</button>
+
+    <div id="scoreboard" style="margin-bottom: 20px; font-size: 18px;">
+      <span>Player (X) Wins: <span id="playerWins">0</span></span> |
+      <span>Computer (O) Wins: <span id="computerWins">0</span></span> |
+      <span>Draws: <span id="draws">0</span></span>
+    </div>
+
+    <div id="status" style="margin-bottom: 10px; font-weight: bold;">Your turn (X)</div>
+
+    <div id="board"></div>
+
+    <button id="resetBtn" style="margin-top: 20px;">Restart Game</button>
+    <button id="resetScoresBtn" style="margin-top: 10px;">Reset Scores</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
